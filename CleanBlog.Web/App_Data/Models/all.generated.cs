@@ -6,8 +6,8 @@ using  Umbraco.Core.Models;
 using  Umbraco.Core.Models.PublishedContent;
 using  Umbraco.Web;
 using  Umbraco.ModelsBuilder.Embedded;
-[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "6e6399de74abd6ce")]
-[assembly:System.Reflection.AssemblyVersion("0.0.0.3")]
+[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "17175326f9d80db4")]
+[assembly:System.Reflection.AssemblyVersion("0.0.0.1")]
 
 
 // FILE: models.generated.cs
@@ -62,20 +62,31 @@ namespace Umbraco.Web.PublishedModels
 		// properties
 
 		///<summary>
-		/// Title
+		/// Main Content: Enter the main content for this page
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder", "8.6.4")]
-		[ImplementPropertyType("title")]
-		public string Title => global::Umbraco.Web.PublishedModels.BacisContentControls.GetTitle(this);
+		[ImplementPropertyType("mainContent")]
+		public global::System.Web.IHtmlString MainContent => global::Umbraco.Web.PublishedModels.BacisContentControls.GetMainContent(this);
+
+		///<summary>
+		/// Page Title
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder", "8.6.4")]
+		[ImplementPropertyType("pageTitle")]
+		public string PageTitle => global::Umbraco.Web.PublishedModels.BacisContentControls.GetPageTitle(this);
 	}
 
 	// Mixin Content Type with alias "bacisContentControls"
 	/// <summary>Bacis Content Controls</summary>
 	public partial interface IBacisContentControls : IPublishedContent
 	{
-		/// <summary>Title</summary>
+		/// <summary>Main Content</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder", "8.6.4")]
-		string Title { get; }
+		global::System.Web.IHtmlString MainContent { get; }
+
+		/// <summary>Page Title</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder", "8.6.4")]
+		string PageTitle { get; }
 	}
 
 	/// <summary>Bacis Content Controls</summary>
@@ -104,15 +115,26 @@ namespace Umbraco.Web.PublishedModels
 		// properties
 
 		///<summary>
-		/// Title
+		/// Main Content: Enter the main content for this page
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder", "8.6.4")]
-		[ImplementPropertyType("title")]
-		public string Title => GetTitle(this);
+		[ImplementPropertyType("mainContent")]
+		public global::System.Web.IHtmlString MainContent => GetMainContent(this);
 
-		/// <summary>Static getter for Title</summary>
+		/// <summary>Static getter for Main Content</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder", "8.6.4")]
-		public static string GetTitle(IBacisContentControls that) => that.Value<string>("title");
+		public static global::System.Web.IHtmlString GetMainContent(IBacisContentControls that) => that.Value<global::System.Web.IHtmlString>("mainContent");
+
+		///<summary>
+		/// Page Title
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder", "8.6.4")]
+		[ImplementPropertyType("pageTitle")]
+		public string PageTitle => GetPageTitle(this);
+
+		/// <summary>Static getter for Page Title</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder", "8.6.4")]
+		public static string GetPageTitle(IBacisContentControls that) => that.Value<string>("pageTitle");
 	}
 
 	/// <summary>Folder</summary>
