@@ -76,4 +76,28 @@
       <file name="/vendor/fontawesome-free/css/all.min.css" />
     </files>
   </item>
+  <item key="L3NjcmlwdHMvanF1ZXJ5LnZhbGlkYXRlLm1pbi5qczsvc2NyaXB0cy9qcXVlcnkudmFsaWRhdGUudW5vYnRydXNpdmUubWluLmpzOy9zY3JpcHRzL2pxdWVyeS51bm9idHJ1c2l2ZS1hamF4Lm1pbi5qczsvc2NyaXB0cy9jb250YWN0Rm9ybS5qczs" file="C:\Users\Xinkai Huang\source\repos\CleanBlog.Web\CleanBlog.Web\App_Data\TEMP\ClientDependency\1_3dc0dd50df8340fd8b8f4e7c46237d95.cdJ" compression="gzip" version="1">
+    <files>
+      <file name="/scripts/jquery.validate.min.js" />
+      <file name="/scripts/jquery.validate.unobtrusive.min.js" />
+      <file name="/scripts/jquery.unobtrusive-ajax.min.js" />
+      <file name="/scripts/contactForm.js" />
+    </files>
+  </item>
+  <item key="L2Nzcy9jbGVhbi1ibG9nLm1pbi5jc3M7" file="C:\Users\Xinkai Huang\source\repos\CleanBlog.Web\CleanBlog.Web\App_Data\TEMP\ClientDependency\1_efc5cc40eb3141e6a45423fbe01b2788.cdC" compression="gzip" version="1">
+    <files>
+      <file name="/css/clean-blog.min.css" />
+    </files>
+  </item>
+  <item key="L3NjcmlwdHMvanF1ZXJ5LnZhbGlkYXRlLm1pbi5qczsvc2NyaXB0cy9qcXVlcnkudmFsaWRhdGUudW5vYnRydXNpdmUubWluLmpzOy9zY3JpcHRzL2pxdWVyeS51bm9idHJ1c2l2ZS1hamF4Lm1pbi5qczsvc2NyaXB0cy9jb250YWN0Rm9ybS5qczsvdmVuZG9yL2pxdWVyeS9qcXVlcnkubWluLmpzOy92ZW5kb3IvYm9vdHN0cmFwL2pzL2Jvb3RzdHJhcC5idW5kbGUubWluLmpzOy9qcy9jbGVhbi1ibG9nLm1pbi5qczs" file="C:\Users\Xinkai Huang\source\repos\CleanBlog.Web\CleanBlog.Web\App_Data\TEMP\ClientDependency\1_e3df83110466404eb39914420ce3801c.cdJ" compression="gzip" version="1">
+    <files>
+      <file name="/scripts/jquery.validate.min.js" />
+      <file name="/scripts/jquery.validate.unobtrusive.min.js" />
+      <file name="/scripts/jquery.unobtrusive-ajax.min.js" />
+      <file name="/scripts/contactForm.js" />
+      <file name="/vendor/jquery/jquery.min.js" />
+      <file name="/vendor/bootstrap/js/bootstrap.bundle.min.js" />
+      <file name="/js/clean-blog.min.js" />
+    </files>
+  </item>
 </map>
